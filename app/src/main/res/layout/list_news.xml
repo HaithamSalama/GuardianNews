@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#818181"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/sectionName_txt"
+        style="@style/listView"
+        android:layout_weight=".6"
+        android:background="@drawable/circle"
+        android:minHeight="50dp"
+        android:textSize="12sp"
+        tools:text="@string/bla" />
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light" />
+
+    <LinearLayout
+        style="@style/listView"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:minHeight="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_txt"
+            style="@style/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="@string/bla" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light" />
+
+    <LinearLayout
+        style="@style/listView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/date_txt"
+            style="@style/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="@string/bla" />
+
+        <TextView
+            android:id="@+id/time_txt"
+            style="@style/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="@string/bla" />
+
+    </LinearLayout>
+</LinearLayout>

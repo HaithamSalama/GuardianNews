@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sports">#50ff40</color>
+    <color name="arts">#fffa62</color>
+    <color name="news">#b56bff</color>
+    <color name="opinion">#7abfbd</color>
+    <color name="lifestyle">#fc7844</color>
+</resources>
